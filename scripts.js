@@ -6,7 +6,7 @@ window.onscroll =() => {
       let top = window.scrollY;
       let offset = sec.offsetTop -150;
       let height = sec.offsetHeight;
-      let class_ = sec.getAttribute('class');
+      let class = sec.getAttribute('class');
 
       if(top >= offset & top < offset + height){
         navLinks.foreach(link =>{          
